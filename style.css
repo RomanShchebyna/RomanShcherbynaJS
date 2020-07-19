@@ -2,12 +2,13 @@
 p{
     margin: 5 auto;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 
     width:100%;
 }
 h2{
-    color: white;
+    color:rgb(179, 144, 0);
+
 
 }
 
@@ -67,7 +68,7 @@ li a:hover{
 }
 
 a { 
-    font-size: 25px;
+    font-size: 20px;
 }
 #home{ 
     padding-left: 25px;
@@ -75,4 +76,7 @@ a {
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position: left;
+}
+a:visited{
+    color: seagreen;
 }
