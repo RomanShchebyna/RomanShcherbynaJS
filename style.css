@@ -1,3 +1,9 @@
+a{
+text-decoration: none;
+border-bottom: 1px solid seagreen;
+font-size: 20px;
+}
+    
 
 p{
     margin: 5 auto;
@@ -45,6 +51,7 @@ ul li {
     font-size: 20px;
     color: rgba(215, 217, 223, 0.931);
     border:1px solid grey;
+    border-radius: 5px;
     margin-bottom: 10px;
     padding: 20px;
   
@@ -53,6 +60,7 @@ ul li {
 }
 ul li a{
     color :rgb(179, 144, 0);
+
     display: block;
     width: 100%;
   
@@ -64,12 +72,16 @@ ul li a{
 
 li a:hover{
     color: rgb(245, 161, 27);
-    border:1px solid rgb(221, 216, 216);
+  border-bottom:2px solid rgb(179, 144, 0);
 }
 
-a { 
-    font-size: 20px;
+p a:hover{
+    color: rgb(245, 161, 27);
+  border-bottom:2px solid rgb(179, 144, 0);
 }
+
+
+
 #home{ 
     padding-left: 25px;
   background-image: url("https://www.clipartmax.com/png/small/76-765457_back-default-home-homepage-icon-home-icon-png-orange.png");
