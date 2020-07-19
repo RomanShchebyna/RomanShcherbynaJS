@@ -1,17 +1,10 @@
-h1{
-  
-    position: absolute;
-    top: 265px;
-    left: 42%;
-    color: white;
-    
-}
 
 p{
+    margin: 5 auto;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 
-    width: 500px;
+    width:100%;
 }
 h2{
     color: white;
@@ -24,7 +17,7 @@ body{
     background-color: #2e2d32d9;
 }
 header{
-  height: 330px;
+  height: 270px;
   width: 100%;
 
   background-image: url("images/javascript-security.jpg");
@@ -58,23 +51,28 @@ ul li {
 
 }
 ul li a{
+    color :rgb(179, 144, 0);
     display: block;
     width: 100%;
   
 }
 
 
-a:visited{
-color: rgba(251, 251, 251, 0.972);
-font-size: 30px;
 
-}
+
 
 li a:hover{
-    color: rgb(179, 144, 0);
-    background-color: white;
+    color: rgb(245, 161, 27);
+    border:1px solid rgb(221, 216, 216);
 }
 
-a{
-    font-size: 20px;
+a { 
+    font-size: 25px;
+}
+#home{ 
+    padding-left: 25px;
+  background-image: url("https://www.clipartmax.com/png/small/76-765457_back-default-home-homepage-icon-home-icon-png-orange.png");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: left;
 }
