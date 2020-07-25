@@ -6,8 +6,10 @@ let countProduct2=+ prompt("Введіть кількість другого т�
 
 function sumProduct(Prise1,count1,Prise2,count2){
  let sum= (Prise1*count1)+(Prise2*count2);
+ console.log(arguments)
  return sum;
 
 }
 
 console.log(`Сума ${countProduct1} перших товарів та  ${countProduct2} других товарів дорівнює ${sumProduct(ProductPrise1,countProduct1,ProductPrise2,countProduct2)} грн.`);
+alert("Результат виведений в консолі");
