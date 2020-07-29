@@ -11,10 +11,15 @@ let monthlyExpenses={
 
 for (let i=1; i<count+1; i++){
     let costСategory= prompt(`Введіть назву категорії ${i}:`);
-    let sum = +prompt(`Введіть суму витрат по по категорії ${costСategory}`);
-    monthlyExpenses[costСategory]=sum;
-  
+    let sum;
+    do{
+       sum = +prompt(`Введіть суму витрат по по категорії ${costСategory}`);
+
+    
+  }while(sum==0 || sum=="")
+  monthlyExpenses[costСategory]=sum;
 }
+
 console.log(monthlyExpenses);
 
 
