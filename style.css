@@ -193,3 +193,24 @@ a{
 
 }
 
+
+@media (min-width:1280px){
+    body{
+        width: 1280px;
+    }
+    ul li {
+        font-size: 25px;
+
+    }
+    header{
+        width:19%;
+    }
+
+    a{
+      
+        border-bottom: 2px solid seagreen;
+        font-size: 25px;
+      }
+
+}
+
