@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 a{
 text-decoration: none;
 border-bottom: 1px solid seagreen;
@@ -8,9 +12,10 @@ font-size: 20px;
 p{
     margin: 5 auto;
     color: white;
+    padding-left: 10px;
     font-size: 20px;
 
-    width:100%;
+    width:90%;
 }
 h2{
     color:rgb(179, 144, 0);
@@ -21,6 +26,7 @@ h2{
 body{
     width: 760px;
     margin: 0 auto;
+    padding: 5px;
     background-color: #2e2d32d9;
 }
 header{
@@ -43,6 +49,8 @@ header{
 
 ul{
     padding-left: 0px;
+    margin: 5px;
+    margin-right: 10px;
     list-style: none;
     
 }
@@ -52,8 +60,9 @@ ul li {
     color: rgba(215, 217, 223, 0.931);
     border:1px solid grey;
     border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-bottom: 15px;
+    /* margin-right: 5px; */
+    padding: 15px;
   
   
 
@@ -96,29 +105,41 @@ a:visited{
 
  /* ширина окна браузера больше   */
 @media (min-width:320px){
-    header{
-        height: 230px;
-        width: 30%;
-        margin: 0 auto;
-        background-image: url(images/javascript-media.jpg);
-        background-repeat: no-repeat;
+
+      body{
+          width: 320px;
       }
+  header{
+      height: 230px;
+      width: 74%;
+      margin: 0 auto;
+      background-image: url(images/javascript-media.jpg);
+      background-repeat: no-repeat;
+
+ }
 
 a{
       
-      border-bottom: 5px solid seagreen;
-      font-size: 50px;
+      border-bottom: 2px solid seagreen;
+      font-size: 20px;
     }
 
     ul li {
-        font-size: 40px;
+        font-size: 20px;
 
     }
 
 }
 
 
-@media (min-width:425px){
+@media (min-width:375px){
+    body{
+        width: 375px;
+    }
+
+    header{
+        width:62%;
+    }
     ul li {
         font-size: 25px;
 
@@ -131,3 +152,44 @@ a{
       }
 
 }
+
+@media (min-width:425px){
+    body{
+        width: 425px;
+    }
+    ul li {
+        font-size: 25px;
+
+    }
+    header{
+        width:55%;
+    }
+
+    a{
+      
+        border-bottom: 2px solid seagreen;
+        font-size: 25px;
+      }
+
+}
+
+@media (min-width:768px){
+    body{
+        width: 768px;
+    }
+    ul li {
+        font-size: 25px;
+
+    }
+    header{
+        width:30%;
+    }
+
+    a{
+      
+        border-bottom: 2px solid seagreen;
+        font-size: 25px;
+      }
+
+}
+
