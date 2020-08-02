@@ -92,3 +92,42 @@ p a:hover{
 a:visited{
     color: seagreen;
 }
+
+
+ /* ширина окна браузера больше   */
+@media (min-width:320px){
+    header{
+        height: 230px;
+        width: 30%;
+        margin: 0 auto;
+        background-image: url(images/javascript-media.jpg);
+        background-repeat: no-repeat;
+      }
+
+a{
+      
+      border-bottom: 5px solid seagreen;
+      font-size: 50px;
+    }
+
+    ul li {
+        font-size: 40px;
+
+    }
+
+}
+
+
+@media (min-width:425px){
+    ul li {
+        font-size: 25px;
+
+    }
+
+    a{
+      
+        border-bottom: 2px solid seagreen;
+        font-size: 25px;
+      }
+
+}
