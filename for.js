@@ -16,7 +16,7 @@ for (let i=1; i<count+1; i++){
        sum = +prompt(`Введіть суму витрат по по категорії ${costСategory}`);
 
     
-  }while(sum==0 || sum=="")
+  }while(sum==0 || sum=="" || sum==null)
   monthlyExpenses[costСategory]=sum;
 }
 
